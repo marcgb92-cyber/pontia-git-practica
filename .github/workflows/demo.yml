@@ -14,4 +14,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Imprime el mensaje recibido
-        run: echo "Mensaje recibido: ${{ inputs.mensaje }}"
+        run: 'echo "Mensaje recibido: ${{ inputs.mensaje }}"'
